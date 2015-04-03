@@ -5,6 +5,11 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService", "CalculatorClient\CalculatorService.csproj", "{6AAC82F9-02A6-448C-86EF-13FB0D3B52AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationCalcClient", "ConsoleApplicationCalcClient\ConsoleApplicationCalcClient.csproj", "{5F19CB55-CDB3-4BE5-B41B-2285EC608C01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6AAC82F9-02A6-448C-86EF-13FB0D3B52AB} = {6AAC82F9-02A6-448C-86EF-13FB0D3B52AB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{6AAC82F9-02A6-448C-86EF-13FB0D3B52AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AAC82F9-02A6-448C-86EF-13FB0D3B52AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AAC82F9-02A6-448C-86EF-13FB0D3B52AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F19CB55-CDB3-4BE5-B41B-2285EC608C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F19CB55-CDB3-4BE5-B41B-2285EC608C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F19CB55-CDB3-4BE5-B41B-2285EC608C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F19CB55-CDB3-4BE5-B41B-2285EC608C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

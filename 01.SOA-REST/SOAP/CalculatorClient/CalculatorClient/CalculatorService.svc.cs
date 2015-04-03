@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Web.Services.Protocols;
+using System.Xml;
 
 namespace CalculatorService
 {
@@ -6,6 +8,11 @@ namespace CalculatorService
     {
         public int Multi(int numA, int numB)
         {
+            if (numA < 0 || numB < 0)
+            {
+                throw new SoapException("Negative numbers not implemented. (test error)", 
+                    new XmlQualifiedName("TestError"));
+            }
             return numA*numB;
         }
 
