@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Services", "BlogSystem.Services\BlogSystem.Services.csproj", "{7E0C9CF0-9EF6-413C-B965-F8F03945EB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Data", "BlogSystem.Data\BlogSystem.Data.csproj", "{5C72B3A9-8155-4E47-AB9F-0A98024EA60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Models", "BlogSystem.Models\BlogSystem.Models.csproj", "{60FCEF4F-3104-4C9D-B5CB-9F54CFAE38F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E0C9CF0-9EF6-413C-B965-F8F03945EB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0C9CF0-9EF6-413C-B965-F8F03945EB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0C9CF0-9EF6-413C-B965-F8F03945EB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0C9CF0-9EF6-413C-B965-F8F03945EB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C72B3A9-8155-4E47-AB9F-0A98024EA60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C72B3A9-8155-4E47-AB9F-0A98024EA60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C72B3A9-8155-4E47-AB9F-0A98024EA60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C72B3A9-8155-4E47-AB9F-0A98024EA60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FCEF4F-3104-4C9D-B5CB-9F54CFAE38F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FCEF4F-3104-4C9D-B5CB-9F54CFAE38F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FCEF4F-3104-4C9D-B5CB-9F54CFAE38F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FCEF4F-3104-4C9D-B5CB-9F54CFAE38F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
