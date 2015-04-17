@@ -2,9 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BlogSystem.Models;
 
 namespace BlogSystem.Data
 {
@@ -18,6 +16,27 @@ namespace BlogSystem.Data
             this.context = context;
             this.repositories = new Dictionary<Type, object>();
         }
+
+        public IRepository<ApplicationUser> Users
+        {
+            get { return this.GetRepository<ApplicationUser>(); }
+        }
+
+        public IRepository<Post> Posts
+        {
+            get { return this.GetRepository<Post>(); }
+        }
+
+        public IRepository<Comment> Comments
+        {
+            get { return this.GetRepository<Comment>(); }
+        }
+
+        public IRepository<Tag> Tags
+        {
+            get { return this.GetRepository<Tag>(); }
+        }
+
         public int SaveChanges()
         {
             return this.context.SaveChanges();

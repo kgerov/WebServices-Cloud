@@ -10,7 +10,7 @@
         public ApplicationDbContext()
             : base("BlogSystemConnection", throwIfV1Schema: false)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>());
+            Database.SetInitializer<ApplicationDbContext>(new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>());
         }
 
         public static ApplicationDbContext Create()
@@ -19,5 +19,8 @@
         }
 
         //public IDbSet<ApplicationUser> Users { get; set; }
+        public IDbSet<Post> Posts { get; set; }
+        public IDbSet<Comment> Comments { get; set; }
+        public IDbSet<Tag> Tags { get; set; }
     }
 }

@@ -20,7 +20,7 @@
 
         public IQueryable<T> All()
         {
-            return this.DbSet.AsQueryable();
+            return this.DbSet;
         }
 
         public IQueryable<T> Find(Expression<Func<T, bool>> expression)
