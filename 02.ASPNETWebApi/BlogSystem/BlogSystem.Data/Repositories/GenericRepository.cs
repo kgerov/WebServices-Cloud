@@ -7,7 +7,7 @@
         using System.Linq.Expressions;
 
         public class GenericRepository<T> : IRepository<T> where T : class
-    {
+        {
         public GenericRepository(ApplicationDbContext context)
         {
             this.Context = context;
