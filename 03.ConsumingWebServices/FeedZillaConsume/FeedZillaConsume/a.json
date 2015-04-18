@@ -1,0 +1,41 @@
+﻿{
+    "articles": [
+        {
+            "author": "Jon Murray, The Spot",
+            "publish_date": "Wed, 01 Apr 2015 01:42:00 +0100",
+            "source": "Denver Post",
+            "source_url": "http:\/\/feeds.denverpost.com\/dp-politics-local_politics",
+            "summary": "Denver Mayor Michael Hancock speaks to supporters during his February 2015 re-\u000aelection campaign kickoff with his wife, Mary Louise Lee.\u000a\u000a",
+            "title": "Denver bans city travel to Indiana over \"religious freedom\" law (Denver Post)",
+            "url": "http:\/\/news.feedzilla.com\/en_us\/stories\/top-news\/428971986?count=3&q=michael&client_source=api&format=json"
+        },
+        {
+            "author": "Shandra Martinez | smartinez@mlive.com",
+            "enclosures": [
+                {
+                    "length": 83725,
+                    "media_type": "image\/jpg",
+                    "uri": "http:\/\/media.mlive.com\/grandrapidspress\/photo\/2014\/08\/21\/-40de84e5c08d7da6.JPG"
+                }
+            ],
+            "publish_date": "Wed, 08 Apr 2015 18:50:00 +0100",
+            "source": "Grand Rapids Press",
+            "source_url": "http:\/\/feeds.feedburner.com\/michigan-news",
+            "summary": "Kate Spade, Michael Kors and Sperry will be among 74 retailers in the much\u000aanticipated Tanger Outlet mall that will open July 31 in West Michigan.\u000a\u000a",
+            "title": "Tanger Outlet: See nearly complete list of stores coming to new Byron Township mall (Grand Rapids Press)",
+            "url": "http:\/\/news.feedzilla.com\/en_us\/stories\/top-news\/430308524?count=3&q=michael&client_source=api&format=json"
+        },
+        {
+            "author": "S.A. Miller",
+            "publish_date": "Mon, 23 Mar 2015 02:20:00 +0100",
+            "source": "Washington Times",
+            "source_url": "http:\/\/www.washingtontimes.com\/rss\/headlines\/news\/local\/",
+            "summary": "The fate of Maryland's notorious \"rain tax\" now largely rests with one man --\u000aHouse Speaker Michael E. Busch -- after the state Senate last week unanimously\u000aapproved a bill that would end the state-mandated fee.\u000a\u000aDemocrats, who hold overwhelming majorities in the General Assembly, have sent\u000amixed signals about ...\u000a\u000a",
+            "title": "Michael Busch holds fate of Maryland 'rain tax' bill (Washington Times)",
+            "url": "http:\/\/news.feedzilla.com\/en_us\/stories\/top-news\/427314814?count=3&q=michael&client_source=api&format=json"
+        }
+    ],
+    "description": "Top News - 'Michael'",
+    "syndication_url": "http:\/\/news.feedzilla.com\/en_us\/news\/top-news.rss?count=3&q=michael&client_source=api",
+    "title": "Feedzilla: Top News - 'Michael'"
+}
